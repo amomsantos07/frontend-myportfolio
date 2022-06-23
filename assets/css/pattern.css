@@ -32,3 +32,33 @@ h2 {
 h2 span {
   color: var(--primary-color);
 }
+
+
+.btn-primary {
+  border-radius: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  font-size: 2.4;
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  padding: 1rem 2.6rem;
+
+}
+
+.btn-primary.empty {
+  border: 2px solid var(--primary-color);
+  border-radius: 2.4rem;
+  color: var(--primary-color);
+  background-color: transparent;
+}
+
+.menu-item{
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+
+
+

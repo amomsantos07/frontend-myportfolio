@@ -9,7 +9,7 @@ header {
   z-index: 2022;
 }
 
-header  .container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,9 +27,17 @@ header .container nav .menu {
   justify-content: space-between;
 }
 
+header .container nav .menu li {
+  margin-right: 4.8rem;
+}
+
 header .container nav .menu-social {
   display: flex;
   justify-content: space-between;
   align-content: center;
   margin-left: 4rem;
+}
+
+header .container nav .menu-social img{
+  
 }
