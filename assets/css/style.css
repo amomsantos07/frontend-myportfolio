@@ -36,8 +36,31 @@ header .container nav .menu-social {
   justify-content: space-between;
   align-content: center;
   margin-left: 4rem;
+  gap: 3.4rem;
 }
 
-header .container nav .menu-social img{
-  
+/* Section Hero */
+
+.s-hero {
+  background: url(../img/s-hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+.s-hero .container{
+  display: flex;
+  flex-direction: colum;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-hero .container .title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 59.2rem;
+  margin-top: 7rem;
+  padding-bottom: 5.8;
 }
