@@ -103,3 +103,8 @@ header .container nav .menu-social {
   gap: 1.6rem;
   margin-top: 2.3rem;
 }
+
+.s-hero .container .title-box .btn-primary{
+  margin-top: 4rem;
+  padding: 1rem 5.6rem;
+  }
