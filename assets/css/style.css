@@ -50,7 +50,7 @@ header .container nav .menu-social {
 
 .s-hero .container{
   display: flex;
-  flex-direction: colum;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -61,6 +61,45 @@ header .container nav .menu-social {
   align-items: center;
   width: 100%;
   max-width: 59.2rem;
-  margin-top: 7rem;
-  padding-bottom: 5.8;
+  margin-top: 24rem;
+  padding-bottom: 6rem;
+}
+
+.s-hero .container .title-box h1{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.s-hero .container .title-box h1 span {
+  color: var(--primary-color);
+}
+
+.s-hero .container .title-box h2{
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 6rem;
+  text-align: center;
+  color: rgba(220, 246, 75, 0.8);
+  margin-bottom: 2rem;
+}
+
+.s-hero .container .title-box p{
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7em;
+  text-align: center;
+  color: rgba(220, 246, 75, 0.8)
+}
+
+.s-hero .container .title-box .techs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin-top: 2.3rem;
 }
